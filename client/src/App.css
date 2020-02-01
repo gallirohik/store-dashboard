@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f6f6f6f5;
+  box-shadow: inset 0 0 5px #99d2e4;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dodgerblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: dodgerblue;
+}
+.dashboard-layout {
+  background: #f6f6f6f5;
+  width: auto;
+  height: 100vh;
+  display: grid;
+  gap: 0.5rem;
+  padding: 0rem 0.3rem 0 0.3rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-areas:
+    "navbar navbar navbar navbar"
+    "left-container main-container main-container right-container";
+}
+.navbar {
+  grid-area: navbar;
+  height: 18vh;
+  background: white;
+}

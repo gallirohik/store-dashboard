@@ -1,0 +1,33 @@
+.left-container {
+  grid-area: left-container;
+  background: #f6f6f6f5;
+  overflow-wrap: break-word;
+  display: -ms-grid;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.left-container-header {
+  position: relative;
+  height: 25vh;
+  background: white;
+  overflow-wrap: inherit;
+}
+
+.left-container-panel {
+  height: 55vh;
+  overflow-y: scroll;
+  background: #f6f6f6f5;
+  overflow-wrap: inherit;
+  display: -ms-grid;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.left-container-panel-item {
+  min-height: 80px;
+  width: auto;
+  background: white;
+  overflow-wrap: inherit;
+}
+/*# sourceMappingURL=leftcontainer.css.map */

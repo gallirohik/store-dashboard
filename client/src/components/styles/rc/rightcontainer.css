@@ -1,0 +1,33 @@
+.right-container {
+  grid-area: right-container;
+  background: #f6f6f6f5;
+  overflow-wrap: break-word;
+  display: -ms-grid;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.right-container-header {
+  position: relative;
+  min-height: 20vh;
+  background: white;
+  overflow-wrap: inherit;
+}
+
+.right-container-panel {
+  height: 60vh;
+  overflow-y: scroll;
+  background: #f6f6f6f5;
+  overflow-wrap: inherit;
+  display: -ms-grid;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.right-container-panel-item {
+  min-height: 120px;
+  width: auto;
+  background: white;
+  overflow-wrap: inherit;
+}
+/*# sourceMappingURL=rightcontainer.css.map */

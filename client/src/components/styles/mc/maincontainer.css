@@ -1,0 +1,16 @@
+.main-container {
+  grid-area: main-container;
+  height: 80vh;
+  background: #f6f6f6f5;
+  overflow-y: scroll;
+  display: -ms-grid;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.main-item {
+  min-height: 250px;
+  width: auto;
+  background: white;
+}
+/*# sourceMappingURL=maincontainer.css.map */

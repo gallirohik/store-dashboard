@@ -1,0 +1,155 @@
+{ 
+   "customer":{ 
+      "address":{ 
+         "city":"Delhi NCR",
+         "is_guest_mode":false,
+         "line_1":"line 1",
+         "line_2":"line 2",
+         "landmark":"landmark",
+         "latitude":13.05339,
+         "longitude":80.24940,
+         "sub_locality":"HSR Layout",
+         "pin":"221005",
+         "tag":"Home"
+      },
+      "email":"testuser@example.com",
+      "name":"testuser",
+      "phone":"9999999999"
+   },
+   "order":{ 
+      "details":{ 
+         "biz_id":324255235,
+         "channel":"zomato",
+         "charges":[ 
+            { 
+               "taxes":[ 
+                  { 
+                     "title":"DELIVERY",
+                     "value":2.0
+                  }
+               ],
+               "title":"Delivery Charge",
+               "value":40.0
+            }
+         ],
+         "coupon":"FLAT55",
+         "created":1524666683480,
+         "delivery_datetime":1524669383480,
+         "discount":30.0,
+         "total_external_discount":20.0,
+         "ext_platforms":[ 
+            { 
+               "id":"1218004251",
+               "kind":"food_aggregator",
+               "name":"zomato",
+               "delivery_type":"partner",
+               "extras":{ 
+                  "order_type":"pop",
+                  "thirty_minutes_delivery":true,
+                  "cash_to_be_collected":252.0
+               },
+               "discounts":[ 
+                  { 
+                     "is_merchant_discount":true,
+                     "rate":0.0,
+                     "title":"Restaurant Promo",
+                     "value":10.0,
+                     "code":"FLAT30"
+                  },
+                  { 
+                     "is_merchant_discount":false,
+                     "rate":0.0,
+                     "title":"Restaurant Promo",
+                     "value":20.0,
+                     "code":"FLAT30"
+                  }
+               ]
+            }
+         ],
+         "id":3444567,
+         "instructions":"Address Instructions: test",
+         "item_level_total_charges":10.0,
+         "item_level_total_taxes":12.0,
+         "item_taxes":0.0,
+         "merchant_ref_id":"1218004251",
+         "order_level_total_charges":20,
+         "order_level_total_taxes":0,
+         "order_state":"Placed",
+         "order_subtotal":250.0,
+         "order_total":939.0,
+         "order_type":"delivery",
+         "state":"Placed",
+         "taxes":[ 
+
+         ],
+         "total_charges":30.0,
+         "total_taxes":12.0
+      },
+      "items":[ 
+         { 
+            "charges":[ 
+               { 
+                  "title":"Packaging Charge",
+                  "value":10.0
+               }
+            ],
+            "discount":100.0,
+            "food_type":"1",
+            "id":46898,
+            "image_landscape_url":null,
+            "image_url":null,
+            "merchant_id":"13",
+            "options_to_add":[ 
+               { 
+                  "id":11262,
+                  "merchant_id":"394",
+                  "price":200.0,
+                  "title":"Small"
+               },
+               { 
+                  "id":11263,
+                  "merchant_id":"295",
+                  "price":50.0,
+                  "title":"Cheese"
+               }
+            ],
+            "options_to_remove":[  ],
+            "price":0.0,
+            "quantity":1,
+            "taxes":[  ],
+            "title":"Margherita Pizza",
+            "total":250.0,
+            "total_with_tax":262.0,
+            "unit_weight":null
+         }
+      ],
+      "next_state":"Acknowledged",
+      "next_states":[ 
+         "Acknowledged",
+         "Food Ready",
+         "Dispatched",
+         "Modified",
+         "Completed",
+         "Cancelled"
+      ],
+      "payment":[ 
+         { 
+            "amount":252.0,
+            "option":"cash",
+            "srvr_trx_id":null
+         },
+         { 
+            "amount":5.0,
+            "option":"wallet_credit"
+         }
+      ],
+      "store":{ 
+         "address":"Sector 7,HSR Layout",
+         "id":1712,
+         "latitude":12.908136,
+         "longitude":77.647608,
+         "merchant_ref_id":"1",
+         "name":"HSR Layout"
+      }
+   }
+}
